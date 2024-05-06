@@ -1,0 +1,9 @@
+warnings
+pandas
+numpy
+lxml
+xml.etree.ElementTree
+seaborn
+matplotlib
+re
+pycats
