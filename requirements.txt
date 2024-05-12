@@ -1,9 +1,6 @@
-warnings
-pandas
-numpy
-lxml
-xml.etree.ElementTree
-seaborn
-matplotlib
-re
-pycats
+lxml==5.2.1
+matplotlib==3.8.3
+numpy==1.26.4
+pandas==2.2.2
+pycats==0.1.21
+seaborn==0.13.2
