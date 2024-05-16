@@ -4,7 +4,6 @@ def add_missing_keys_in_tracks(tracks_data, expected_keys):
     for track_id, track_info in tracks_data.items():
         for key in expected_keys:
             if key not in track_info:
-                print(f"Key '{key}' is missing in Track ID {track_id}. Adding with value 0.")
                 track_info[key] = 0
 
 def check_and_update_json(json_file_path, expected_keys):
