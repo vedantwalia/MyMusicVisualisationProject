@@ -50,7 +50,6 @@ def check_and_update_json(json_file_path, expected_keys):
         json.dump(data, file, indent=4)
 
 
-# Example usage:
-json_file_path = "Library_cleaned.json"  # Replace with the path to your JSON file
-expected_keys = ["Play Count"]  # Add more keys as needed
+json_file_path = "Library_cleaned.json"
+expected_keys = ["Play Count"]
 check_and_update_json(json_file_path, expected_keys)
